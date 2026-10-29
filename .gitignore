@@ -1,0 +1,29 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# CRITICAL: Personal Financial Data & Statements
+*.db
+*.sqlite
+*.sqlite3
+transactions.db
+*.pdf
+*.csv
+*.xlsx
+*.txt
+!requirements.txt
+
+# Environment variables & editor
+.env
+.vscode/
+.idea/
